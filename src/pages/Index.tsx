@@ -61,7 +61,7 @@ const Index = () => {
           <div className="flex justify-center">
             <div className="relative">
               <img
-                src="/img/c9717903-278b-4f07-be82-b8886b092d08.jpg"
+                src="/img/d1af31ea-1aa8-4df3-82f4-7232d725d1d3.jpg"
                 alt="Дети изучают онлайн"
                 className="rounded-3xl shadow-2xl max-w-full h-auto"
               />
@@ -73,14 +73,33 @@ const Index = () => {
         </div>
         <div className="text-center">
           <img
-            src="/img/1ac8f20f-6504-49f4-a261-c4c030ca6cb4.jpg"
+            src="/img/1ef3dca7-76cf-423b-b462-5216067e1464.jpg"
             alt="Маскот школы Апельсин"
             className="w-32 h-32 mx-auto mb-6 rounded-full shadow-lg"
           />
-          <p className="text-lg text-gray-600 mb-6">
-            Знакомьтесь с нашим другом Апельсинчиком! Он поможет вашему ребенку
-            полюбить учебу
+          <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+            Онлайн школа для начальных классов, где каждый ребенок получает
+            индивидуальное внимание учителя
           </p>
+          <div className="flex justify-center space-x-4 mb-8">
+            <Badge className="bg-green-100 text-green-700 px-4 py-2 text-base">
+              <Icon name="Users" size={16} className="mr-2" />
+              Малые группы
+            </Badge>
+            <Badge className="bg-blue-100 text-blue-700 px-4 py-2 text-base">
+              <Icon name="Video" size={16} className="mr-2" />
+              Живые уроки
+            </Badge>
+            <Badge className="bg-purple-100 text-purple-700 px-4 py-2 text-base">
+              <Icon name="Heart" size={16} className="mr-2" />С любовью к детям
+            </Badge>
+          </div>
+          <Button
+            size="lg"
+            className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-full text-lg"
+          >
+            Попробовать бесплатно
+          </Button>
         </div>
       </section>
 
